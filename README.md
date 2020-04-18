@@ -1,7 +1,7 @@
 ## droidwalker
 droidwalker is a poorly written bash script to search decompiled .apk files for secrets such as access tokens and API keys.
 
-Unlike most tools that search for keywords like "password" and "config", droidwalker uses regex to find and identify hardcoded key and outputs the keys directly in the terminal. Althrough the script was originally designed for Android applications, it can be used to search any directory for leaked secrets.
+Unlike most tools that search for keywords like "password" and "config", droidwalker uses regex to find and identify hardcoded secrets and outputs the discovered keys directly in the terminal. Althrough the script was originally designed for Android applications, it can be used to search any directory for leaked secrets.
 
 To use droidwalker, simply run droidwalker.sh and specify the target directory containing the decompiled .apk file(s) as a command-line argument.
 
